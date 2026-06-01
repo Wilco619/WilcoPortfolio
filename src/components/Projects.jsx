@@ -20,7 +20,9 @@ const projects = [
     title: 'HR Management System',
     description: 'Comprehensive HR solution for employee management, payroll processing, leave tracking, and report generation. Highly scalable and secure, ideal for small to large businesses.',
     tags: ['Django', 'MySQL', 'Bootstrap5'],
-    link: 'https://github.com/Wilco619/hr-management-system',
+    links: [
+      { name: 'GitHub', url: 'https://github.com/Wilco619' }
+    ],
     year: '2024',
   },
   {
@@ -29,7 +31,9 @@ const projects = [
     title: 'Library Management System',
     description: 'Automates book borrowing, returns, and catalog management. With a secure backend and user-friendly interface, this system improves library workflows and ensures data accuracy.',
     tags: ['Python', 'Django'],
-    link: 'https://github.com/Wilco619/library-management-system',
+    links: [
+      { name: 'GitHub', url: 'https://github.com/Wilco619' }
+    ],
     year: '2024',
   },
   {
@@ -38,7 +42,9 @@ const projects = [
     title: 'Microfinance System',
     description: 'Streamlines loan applications, approvals, customer management, and financial tracking. Integrates Material UI for elegant UX and React for fast, dynamic interface.',
     tags: ['React', 'Axios', 'Django REST', 'Material UI'],
-    link: 'https://github.com/Wilco619/microfinance-system',
+    links: [
+      { name: 'GitHub', url: 'https://github.com/Wilco619' }
+    ],
     year: '2024',
   },
 ]
