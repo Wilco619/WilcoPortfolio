@@ -190,7 +190,7 @@ const Header = ({ scrollToSection, activeSection }) => {
           onMouseEnter={e => { e.currentTarget.style.background = '#DC143C'; e.currentTarget.style.color = '#fff'; e.currentTarget.style.borderColor = '#DC143C' }}
           onMouseLeave={e => { e.currentTarget.style.background = 'transparent'; e.currentTarget.style.color = '#1a1a1a'; e.currentTarget.style.borderColor = '#1a1a1a' }}
         >
-          Hire me
+          Reach out
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" style={{ width: '12px', height: '12px' }}>
             <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
           </svg>
