@@ -102,8 +102,8 @@ const Work = () => {
         .work-row.open .work-position, .work-row:hover .work-position { color: #DC143C; }
         .work-company { font-size: 12px; font-weight: 400; color: #aaa; margin-top: 4px; letter-spacing: 0.04em; }
         .work-meta-right { display: flex; flex-direction: column; align-items: flex-end; gap: 8px; flex-shrink: 0; }
-        .work-duration { font-size: 11px; font-weight: 500; letter-spacing: 0.1em; color: #ccc; text-transform: uppercase; white-space: nowrap; }
-        .work-type { font-size: 10px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: #bbb; border: 1px solid #ebebeb; padding: 2px 8px; }
+        .work-duration { font-size: 11px; font-weight: 500; letter-spacing: 0.1em; color: #595959; text-transform: uppercase; white-space: nowrap; }
+        .work-type { font-size: 10px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: #585858; border: 1px solid #848383; padding: 2px 8px; }
         .work-chevron { width: 28px; height: 28px; border: 1px solid #ebebeb; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #ccc; transition: border-color 0.2s ease, color 0.2s ease, transform 0.25s ease; flex-shrink: 0; margin-top: 4px; }
         .work-row.open .work-chevron { border-color: #DC143C; color: #DC143C; transform: rotate(180deg); }
         .work-body { overflow: hidden; max-height: 0; opacity: 0; transition: max-height 0.4s ease, opacity 0.3s ease; padding: 0 0 0 76px; }
