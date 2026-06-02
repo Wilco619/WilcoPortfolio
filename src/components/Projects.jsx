@@ -12,7 +12,7 @@ const projects = [
       { name: 'Tradebells.co.ke', url: 'https://tradebells.co.ke' },
       { name: 'Jacalwellness.co.ke', url: 'https://jacalwellness.co.ke' },
     ],
-    year: '2024',
+    year: '2025/2026',
   },
   {
     id: 2,
@@ -28,17 +28,6 @@ const projects = [
   {
     id: 3,
     number: '03',
-    title: 'Library Management System',
-    description: 'Automates book borrowing, returns, and catalog management. With a secure backend and user-friendly interface, this system improves library workflows and ensures data accuracy.',
-    tags: ['Python', 'Django'],
-    links: [
-      { name: 'GitHub', url: 'https://github.com/Wilco619' }
-    ],
-    year: '2024',
-  },
-  {
-    id: 4,
-    number: '04',
     title: 'Microfinance System',
     description: 'Streamlines loan applications, approvals, customer management, and financial tracking. Integrates Material UI for elegant UX and React for fast, dynamic interface.',
     tags: ['React', 'Axios', 'Django REST', 'Material UI'],
@@ -46,6 +35,18 @@ const projects = [
       { name: 'GitHub', url: 'https://github.com/Wilco619' }
     ],
     year: '2024',
+    
+  },
+  {
+    id: 4,
+    number: '04',
+    title: 'Library Management System',
+    description: 'Automates book borrowing, returns, and catalog management. With a secure backend and user-friendly interface, this system improves library workflows and ensures data accuracy.',
+    tags: ['Python', 'Django'],
+    links: [
+      { name: 'GitHub', url: 'https://github.com/Wilco619' }
+    ],
+    year: '2023',
   },
 ]
 
@@ -103,7 +104,7 @@ const Projects = () => {
 
         .proj-desc {
           font-size: 13px;
-          color: #888;
+          color: #787878;
           font-weight: 300;
           line-height: 1.7;
           margin-top: 10px;
@@ -157,7 +158,7 @@ const Projects = () => {
           font-size: 11px;
           font-weight: 500;
           letter-spacing: 0.1em;
-          color: #ccc;
+          color: #6d6d6d;
           text-transform: uppercase;
           transition: color 0.2s ease;
         }
@@ -166,12 +167,12 @@ const Projects = () => {
         .proj-arrow {
           width: 36px;
           height: 36px;
-          border: 1px solid #ebebeb;
+          border: 1px solid #828282;
           border-radius: 50%;
           display: flex;
           align-items: center;
           justify-content: center;
-          color: #ccc;
+          color: #6c6c6c;
           transition: border-color 0.2s ease, color 0.2s ease, background 0.2s ease, transform 0.2s ease;
           flex-shrink: 0;
         }
@@ -187,7 +188,7 @@ const Projects = () => {
           left: 0;
           top: 0;
           bottom: 0;
-          width: 2px;
+          width: 1px;
           background: #DC143C;
           transform: scaleY(0);
           transform-origin: top;
