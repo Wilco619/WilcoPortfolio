@@ -247,8 +247,8 @@ const Contact = () => {
 
             {/* Intro */}
             <div>
-              <p style={{ fontSize: '15px', color: '#666', lineHeight: 1.75, fontWeight: 300 }}>
-                Whether you have a project in mind, want to collaborate, or simply want to say hello — my inbox is always open.
+              <p style={{ fontSize: '15px', color: '#000000', lineHeight: 1.75, fontWeight: 300 }}>
+                Whether you have a project in mind, want to collaborate, or simply have inquiries — my inbox is always open.
               </p>
               <div className="divider" />
             </div>
