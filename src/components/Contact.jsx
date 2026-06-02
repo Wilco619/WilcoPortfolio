@@ -228,7 +228,7 @@ const Contact = () => {
         }
       `}</style>
 
-      <div className="contact-root" style={{ maxWidth: '1152px', margin: '0 auto', padding: '10px 48px 0' }}>
+      <div className="contact-root" style={{ maxWidth: '1152px', margin: '0 auto', padding: '10px 48px 48px' }}>
 
         {/* Page heading */}
         <div className="mb-16">

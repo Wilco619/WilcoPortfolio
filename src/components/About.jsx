@@ -139,7 +139,7 @@ const About = () => {
         }
       `}</style>
 
-      <div className="about-root" style={{ maxWidth: '1152px', margin: '0 auto', padding: '10px 32px 0', width: '100%' }}>
+      <div className="about-root" style={{ maxWidth: '1152px', margin: '0 auto', padding: '10px 32px 48px', width: '100%' }}>
         <div className="about-grid">
 
           {/* LEFT — Text */}

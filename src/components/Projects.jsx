@@ -222,7 +222,7 @@ const Projects = () => {
         .about-divider { width: 40px; height: 1px; background: #DC143C; margin: 20px 0 28px; }
       `}</style>
 
-      <div className="proj-root" style={{ maxWidth: '1152px', margin: '0 auto', padding: '10px 48px 0' }}>
+      <div className="proj-root" style={{ maxWidth: '1152px', margin: '0 auto', padding: '10px 48px 48px' }}>
 
         {/* Header */}
         <div className="mb-14">

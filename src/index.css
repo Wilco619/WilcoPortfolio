@@ -89,6 +89,7 @@ html, body, #root {
   .page-slide { min-height: calc(100vh - var(--header-height)); }
 }
 @media (max-width: 640px) {
-  html, body, #root { overflow-x: hidden; }
+  /* Allow vertical scrolling on small/touch devices */
+  html, body, #root { overflow-x: hidden; overflow-y: auto; height: auto; }
   .page-slide { height: auto; }
 }

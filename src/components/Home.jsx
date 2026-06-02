@@ -315,7 +315,7 @@ const Home = () => {
       <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: '2px', background: 'linear-gradient(to right, transparent, #DC143C 40%, transparent)' }} />
 
       {/* Main content */}
-      <div className="home-root home-layout" style={{ position: 'relative', zIndex: 1, maxWidth: '1152px', margin: '0 auto', width: '100%' }}>
+      <div className="home-root home-layout" style={{ position: 'relative', zIndex: 1, maxWidth: '1152px', margin: '0 auto', width: '100%', padding: '10px 48px 48px' }}>
 
         <div className="home-main-grid">
 
